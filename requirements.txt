@@ -1,5 +1,2 @@
 requests==2.2.1
-urllib
-os
-json
-base64
+circus
