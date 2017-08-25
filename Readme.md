@@ -27,12 +27,14 @@ This project serves as an experiment to fully leverage the potential of Smart To
 
 ### Create a Smart Tool's Docker Image 
 
-  1. Enter the following code to clone this repository locally: 
-    ```https://github.com/MayankTahil/docker-smart-tools.git```
+  1. Enter the following code to clone this repository locally:
+
+    ```git clone https://github.com/MayankTahil/docker-smart-tools.git```
 
   2. Navigate to the `docker-smart-tools` directory and update the values in the `secrets.json` with your API Key/Secret and Company ID. 
 
   3. Execute the following docker commands to build your image in the `docker-smart-tools` directory: 
+  
     ```docker build -t smart-tools .```
 
 ### Run a Smart Tools Docker Container 
