@@ -2,7 +2,9 @@
 
 [Smart Tools](https://www.citrix.com/products/smart-tools/) is a cloud based services that allows you to automate and deploy scripts to target hosts that have local light weight agents that connect to the cloud control plane over port 443. The solution has many more features, but for the sake of this repository, we will be focusing on the **Build** and **Deploy** capability within Smart Tools. 
 
-A containerized agent allows for executing code or collection of code (Blueprints) dynamically across compute environments within containers. Combine provisioning of containers with a container orchestrator or deploy to IoT devices and you can dynamically create isolated run time environments for Blueprints deployed by Smart Tools. 
+A containerized agent allows for executing code or collection of code (Blueprints) dynamically across compute environments within containers. Combine provisioning of containers with a container orchestrator or deploy to IoT devices and you can dynamically create isolated run time environments for Blueprints deployed by Smart Tools.
+
+This project serves as an experiment to fully leverage the potential of Smart Tools ability to deploy scripts and workflows for automation purposes with a DevOps workflow. Next steps will be to further develop workflows and other tools to build a Citrix driven [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_Code) solution. 
 
 # Instructions
 
