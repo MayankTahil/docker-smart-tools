@@ -23,7 +23,7 @@ This project serves as an experiment to fully leverage the potential of Smart To
 
       ![Company ID](./images/companyid.png)
 
-  4. You will use the information from above to update key values in [secrets.json](./secrets.json)
+  4. You will use the information from above to update key values in [secrets.json](./data/secrets.json)
 
 ### Create a Smart Tool's Docker Image 
 
@@ -34,7 +34,7 @@ This project serves as an experiment to fully leverage the potential of Smart To
   2. Navigate to the `docker-smart-tools` directory and update the values in the `secrets.json` with your API Key/Secret and Company ID. 
 
   3. Execute the following docker commands to build your image in the `docker-smart-tools` directory: 
-  
+
     ```docker build -t smart-tools .```
 
 ### Run a Smart Tools Docker Container 
